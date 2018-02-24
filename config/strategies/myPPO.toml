@@ -1,0 +1,17 @@
+short = 12
+long = 26
+signal = 9
+
+[thresholds]
+down = -0.025
+up = 0.025
+upPersistence = 3
+downPersistence = 10
+trendPause = 3
+
+[conditions]
+initialBuyRestriction = true
+buyIfLessThan = 0.0161
+maxTimeInTrade = 10
+
+
